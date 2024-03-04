@@ -6,4 +6,4 @@ public class Test5 {
 		System.out.println("args[1] = " + args[1]);
 	}
 }
-// Run 환경
+// Run Configurations argument
