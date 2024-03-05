@@ -9,7 +9,7 @@ import java.util.Arrays;
 */
 //public class Test1 {
 //	public static void main(String[] args) {
-//		int[] arr = new int[100];
+//		int[][] arr = new int[10][10];
 //		int su = 0;
 //		
 //		for(int i=1; i<=100; i++) {
