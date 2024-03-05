@@ -9,6 +9,13 @@ public class Lotto2 {
 		for(int i=0; i<lotto.length; i++) {
 			int su = (int)(Math.random()*45) + 1;
 			lotto[i] = su;
+			for(int j=0; j<i; j++) {
+				if(lotto[i] == lotto[j]) { 
+					System.out.println(lotto[i] + " 동일한 숫자가 뽑혔습니다. 다시 추출합니다!");
+					i--;
+					break;
+				}
+			}
 		}
 		
 		// 6개의 로또 번호를 정렬해서 출력
